@@ -32,3 +32,36 @@ li a {
     font-weight: 700;
     line-height: normal;
 }
+
+h5 {
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #3F4145;
+margin-bottom: 20px;
+}
+
+.p1 {
+font-size: 20px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: hsl(0, 0%, 39%);
+display: inline-block;
+width: 335px;
+margin-top: 3px;
+margin-left: 34px;
+}
+
+.card-1 {  
+    position: relative;
+	width: 1000px;
+	background: #E7E7E7;
+	padding: 20px 23px	;
+	display: inline-block;
+	margin-right: 500px;
+    margin-bottom: 5px;
+}
