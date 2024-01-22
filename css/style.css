@@ -34,26 +34,35 @@ li a {
 }
 
 h5 {
-font-size: 20px;
+font-size: 30px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 color: #3F4145;
 margin-bottom: 20px;
+font-weight: bold;
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+ }                                   
 }
 
+
 .p1 {
-font-size: 20px;
+font-size: 30px;
 font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 color: hsl(0, 0%, 39%);
 display: inline-block;
 width: 335px;
-margin-top: 3px;
-margin-left: 34px;
+margin-bottom: 500px;
+margin-left: 600px;
+text-align: justify;
+line-height: 28px;
 }
 
 .card-1 {  
@@ -64,4 +73,111 @@ margin-left: 34px;
 	display: inline-block;
 	margin-right: 500px;
     margin-bottom: 5px;
+}
+
+.card-2 {
+    position: relative;
+	width: 1000px;
+	background: #E7E7E7;
+	padding: 20px 23px	;
+	display: inline-block;
+	margin-right: 500px;
+    margin-bottom: 5px;
+}
+
+.scout {
+    margin-top: 50px;
+}
+
+.Marketplaces {
+    font-size: 30px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+margin-top: 10px;
+text-align: center;
+color: #3F4145;
+margin-bottom: 20px;
+font-weight: bold;
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+ }
+}
+
+.a1 {
+	color: #4E6FAE;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: inline-block;
+    margin-top: 30px;
+}
+
+.a2 {
+	color: #4E6FAE;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: inline-block;
+    margin-left: 100px;
+}
+
+.a3 {
+	color: #4E6FAE;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: inline-block;
+    margin-left: 100px;
+}
+
+.a4 {
+	color: #4E6FAE;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: inline-block;
+    margin-left: 100px;
+}
+
+.marketinfo {
+    font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+
+color: #3F4145;
+margin-top: 100px;
+font-weight: bold;
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+ } 
+}
+
+.visit {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-right: 10px;
+    color: #3F4145;
+    margin-top: px;
+    font-weight: bold;
+    @font-face {
+        font-family: myFirstFont;
+        src: url(sansation_bold.woff);
+        font-weight: bold;
+}
+
+.solider {
+    margin-left: 500px;
+    position: relative;
 }
